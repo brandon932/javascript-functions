@@ -31,12 +31,23 @@ discountPercentage(500,50);
 // }
 // stringCapitalize("hello! world this is a test");
 
-function evenNumbers(){
-var randomNum = Math.random()*101;
-for (var i = 0; i < randomNum; i++) {
-  if (i%2===0) {
-    console.log(i);
-    }
+// function evenNumbers(){
+// var randomNum = Math.random()*101;
+// for (var i = 0; i < randomNum; i++) {
+//   if (i%2===0) {
+//     console.log(i);
+//     }
+//   }
+// }
+// evenNumbers();
+
+function isDivisible(i,n){
+  if(i%n===0){
+    console.log(true);
+    return true;
+  }else{
+    console.log(false);
+    return false;
   }
 }
-evenNumbers();
+isDivisible(8,3);
