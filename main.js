@@ -22,24 +22,25 @@ function discountPercentage(x,y){
 }
 discountPercentage(500,50);
 
-// TODO: finish #4
-// function stringCapitalize(str){
-//   var words = str.split(" ");
-//   for (i=0;i< str.split(" ").length;i++){
-//     words = words.toUpperCase();
-//   }
-// }
-// stringCapitalize("hello! world this is a test");
+// TODO: finish this function
+function stringCapitalize(str){
+  var words = str.split(" ");
+  for (i=0;i< words.length;i++){
+    caps = words.toUpperCase;
+    console.log(words[i].toUpperCase());
+  }
+}
+stringCapitalize("hello! world this is a test");
 
-// function evenNumbers(){
-// var randomNum = Math.random()*101;
-// for (var i = 0; i < randomNum; i++) {
-//   if (i%2===0) {
-//     console.log(i);
-//     }
-//   }
-// }
-// evenNumbers();
+function evenNumbers(){
+var randomNum = Math.random()*101;
+for (var i = 0; i < randomNum; i++) {
+  if (i%2===0) {
+    console.log(i);
+    }
+  }
+}
+evenNumbers();
 
 function isDivisible(i,n){
   if(i%n===0){
